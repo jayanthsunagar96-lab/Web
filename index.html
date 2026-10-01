@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayanth P Sunagar - Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #111827;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #4b6cb7;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .about p {
+            font-size: 17px;
+        }
+
+        .education {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .hobbies {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hobby-card {
+            flex: 1;
+            min-width: 200px;
+            background-color: #eef4ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .hobby-card h3 {
+            color: #182848;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jayanth P Sunagar</h1>
+        <p>2nd Year CSE Engineering Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Jayanth P Sunagar. I am currently studying
+                2nd Year Computer Science and Engineering at Jain Institute
+                of Technology, Davanagere.
+            </p>
+            <p>
+                I am interested in technology and enjoy learning new things
+                related to Computer Science and Engineering.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="education">
+                <p><strong>Course:</strong> Computer Science and Engineering (CSE)</p>
+                <p><strong>Year:</strong> 2nd Year</p>
+                <p><strong>College:</strong> Jain Institute of Technology</p>
+                <p><strong>Location:</strong> Davanagere, Karnataka</p>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <div class="hobbies">
+
+                <div class="hobby-card">
+                    <h3>🎮 Video Games</h3>
+                    <p>
+                        I enjoy playing video games during my free time.
+                        Gaming helps me relax and have fun.
+                    </p>
+                </div>
+
+                <div class="hobby-card">
+                    <h3>🚆 Train Journeys</h3>
+                    <p>
+                        I love travelling by train and enjoying the journey,
+                        scenery and experience along the way.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Jayanth P Sunagar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
